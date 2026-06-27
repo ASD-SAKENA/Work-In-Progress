@@ -1,6 +1,6 @@
-# Sakna Project: WIP Limits Documentation
+# Sakena Project: WIP Limits Documentation
 
-This repository contains the comprehensive **Work In Progress (WIP) Management Document** for the Sakna Building Management System. This document outlines our implementation of *Lean DAD* principles, focusing on transitioning to a *Pull-based* workflow to minimize context switching and maximize development efficiency.
+This repository contains the comprehensive **Work In Progress (WIP) Management Document** for the Sakena Building Management System. This document outlines our implementation of *Lean DAD* principles, focusing on transitioning to a *Pull-based* workflow to minimize context switching and maximize development efficiency.
 
 ## Thesis Template
 
