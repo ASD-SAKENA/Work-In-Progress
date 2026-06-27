@@ -1,0 +1,41 @@
+% ===========================================================
+%
+%  A LaTeX Template for Typesetting Theses in Persian
+%  By: Hamid Zarrabi-Zadeh
+%
+% ===========================================================
+
+\documentclass[oneside,a4paper,12pt]{book}
+
+\newif\ifnewXePer
+
+\input{styles/common.tex}
+\input{styles/custom.tex}
+
+\begin{document}
+	
+
+% -------------------- Front Pages --------------------
+\include{front/info}
+\pagestyle{empty}
+\include{front/template/title}
+
+\pagestyle{plain}
+\pagenumbering{tartibi}
+
+% -------------------- Table of Contents --------------------
+\tableofcontents \newpage
+
+% -------------------- Chapters --------------------
+\pagenumbering{arabic}
+
+% کدهای مستند شما باید در این بخش فرستاده شوند:
+
+\include{chapters/introduction}
+
+
+\include{chapters/wip/wip}
+\include{chapters/results}
+
+
+\end{document}
